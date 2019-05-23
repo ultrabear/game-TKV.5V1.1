@@ -1,0 +1,20 @@
+{
+  "move":{
+    "north":["north","n"],
+    "south":["south","s"],
+    "east":["east","e"],
+    "west":["west","w"]
+  },
+  "logic":{
+    "yes":["yes","y","yep","yeah","sure"],
+    "no":["no","n","nah","nope"]
+  },
+  "commands":{
+    "go":"moveMC({})",
+    "grab":"grabitem({})",
+    "hit":"hitNPC({})",
+    "map":"printmap({})",
+    "stat":"stat({})",
+    "save":"savestate({})"
+  }
+}

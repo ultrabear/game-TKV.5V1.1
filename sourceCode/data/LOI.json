@@ -1,0 +1,63 @@
+{
+  "locations":{
+    "[13,7]":"house",
+    "[10,8]":"tavern",
+    "[12,7]":"sword",
+    "[11,7]":"club",
+    "[12,9]":"acid",
+    "[8,4]":"acid"
+  },
+  "items":{
+    "sword":{
+      "inf":"a sturdy sword",
+      "mndmg":4,
+      "mxdmg":8,
+      "hp":6
+    },
+    "club":{
+      "inf":"a wooden club",
+      "mndmg":2,
+      "mxdmg":5,
+      "hp":3
+    },
+    "acid":{
+      "inf":"a bottle of acid",
+      "mndmg":10,
+      "mxdmg":15,
+      "hp":1
+    }
+  },
+  "npc":{
+    "cat":{
+      "damage":[4,7],
+      "hp":5,
+      "agro":0,
+      "loc":[13,7]
+    },
+    "demon":{
+      "damage":[3,6],
+      "hp":20,
+      "agro":3,
+      "loc":[15,15]
+    },
+    "elf":{
+      "damage":[2,4],
+      "hp":20,
+      "agro":0,
+      "loc":[10,8]
+    },
+    "knight":{
+      "damage":[1,2],
+      "hp":10,
+      "agro":0,
+      "loc":[1,1]
+      
+    },
+    "bear":{
+      "damage":[1,2],
+      "hp":15,
+      "agro":0,
+      "loc":[5,5]
+    }
+  }
+}
